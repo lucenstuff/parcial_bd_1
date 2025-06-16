@@ -4,7 +4,7 @@
 
 ## 🛒 Proyecto E-commerce
 
-#### - Descripción del Proyecto
+#### Descripción del Proyecto
 
 Este proyecto consiste en el desarrollo del backend para una plataforma de E-commerce. El sistema está diseñado para gestionar las funcionalidades clave de una tienda en línea, resolviendo la necesidad de una estructura de datos robusta y escalable que pueda manejar:
 
