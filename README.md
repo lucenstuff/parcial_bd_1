@@ -4,9 +4,7 @@
 
 ## 🛒 Proyecto E-commerce
 
-### Fase 1: Planificación y Diseño del Esquema de Datos
-
-#### 1.1 - Descripción del Proyecto
+#### - Descripción del Proyecto
 
 Este proyecto consiste en el desarrollo del backend para una plataforma de E-commerce. El sistema está diseñado para gestionar las funcionalidades clave de una tienda en línea, resolviendo la necesidad de una estructura de datos robusta y escalable que pueda manejar:
 
@@ -129,16 +127,14 @@ El objetivo es construir una base sólida, eficiente para consultas comunes como
 - **products y product_variants (referencia):** Un producto puede tener muchas variantes. Embeberlas puede exceder los límites de tamaño en MongoDB. Además, se requiere consultar y actualizar stock individualmente, lo cual es más eficiente con referencias.
 - **items y shippingAddress en orders (embeber):** La información debe quedar congelada al momento de la compra para mantener la integridad histórica. Embeber garantiza que el pedido conserve su estado original, incluso si los datos de producto cambian después.
 
-### Fase 2: Implementación
-
-#### 2.1 - Tecnologías Utilizadas
+#### - Tecnologías Utilizadas
 
 *   **Node.js:** Entorno de ejecución para JavaScript del lado del servidor.
 *   **MongoDB:** Base de datos NoSQL orientada a documentos.
 *   **Mongoose:** ODM (Object Data Modeling) para MongoDB y Node.js, facilita la interacción con la base de datos.
 *   **dotenv:** Módulo para cargar variables de entorno desde un archivo `.env`.
 
-#### 2.2 - Estructura del Proyecto
+#### - Estructura del Proyecto
 
 El proyecto sigue una estructura modular para separar las responsabilidades:
 
@@ -154,7 +150,7 @@ El proyecto sigue una estructura modular para separar las responsabilidades:
 └── README.md              # Documentación del proyecto.
 ```
 
-#### 2.3 - Configuración y Ejecución
+#### - Configuración y Ejecución
 
 1.  **Clonar el repositorio (si aplica).**
 2.  **Instalar dependencias:**
